@@ -52,7 +52,7 @@ global:
     loggingIn: Přihlašuji
     loadingResources: Stahování dalších zdrojů (<percentage> %)
     discount: -<percentage>%
-    discountSummerSale: SPECIAL PROMOTION! Offer ends 7 July
+    discountSummerSale: SPECIALNÍ NABÍDKA! Nabídka končí 7 Července
 demoBanners:
     title: Demo verze
     intro: |-
@@ -97,11 +97,11 @@ mainMenu:
         title: Aktivní módy
         warningPuzzleDLC: Nelze hrát Puzzle DLC společně s módy. Prosím deaktivujte
             všechny módy, abyste mohli hrát DLC.
-    playingFullVersion: You are now playing the full version!
-    logout: Logout
-    noActiveSavegames: No active savegames found - Click play to start a new game!
-    playFullVersionV2: Bough shapez on Steam? Play the full version in your Browser!
-    playFullVersionStandalone: You can now also play the full version in your Browser!
+    playingFullVersion: Nyní hraješ plnou verzi hry!
+    logout: Odhlásit se
+    noActiveSavegames: Nebyla nalezena žádná aktivní uložená hra - Klikněte na Hrát na spuštění nové hry!
+    playFullVersionV2: Máte zakoupenu hru na Steamu? Zahrajte si plnou verzy hry na vašem prohlížeči!
+    playFullVersionStandalone: Můžete si zahrát plnou verzy hry v prohlížeci!
 dialogs:
     buttons:
         ok: OK
@@ -286,29 +286,17 @@ dialogs:
         missingMods: Chybějící módy
         newMods: Nově nainstalované módy
     resourceLoadFailed:
-        title: Resources failed to load
-        demoLinkText: shapez demo on Steam
-        descWeb: "One ore more resources could not be loaded. Make sure you have a
-            stable internet connection and try again. If this still doesn't
-            work, make sure to also disable any browser extensions (including
-            adblockers).<br><br> As an alternative, you can also play the
-            <demoOnSteamLinkText>. <br><br> Error Message:"
-        descSteamDemo: "One ore more resources could not be loaded. Try restarting the
-            game - If that does not help, try reinstalling and verifying the
-            game files via Steam. <br><br> Error Message:"
+        title: Nepodařilo se načíst zdroje hry
+        demoLinkText: Shapez demo na Steamu
+        descWeb: "Jeden nebo více zdrojů nemohlo být načteno. Zkontolujte si prosím že máte stabilní internetové připojení a zkuste to znovu. Pokud máte stále potíže tak zkuste vypnout všechny rozšíření prohlížeče(Adblocker-y také).<br><br> Jako alternativu můžete také hrát <demoOnSteamLinkText>. <br><br> Zpráva chyby:"
+        descSteamDemo: "Jeden nebo více zdrojů nemohlo být načtěno. Zkuste restartovat hru - Pokud to nepomůže, zkuste potvrdit soubory hry pomocí Steamu, nepomůže-li to zkuste znovu naistalovat hru skrze Steam.<br><br> Zpráva chyby:"
     steamSsoError:
-        title: Full Version Logout
-        desc: You have been logged out from the Full Browser Version since either your
-            network connection is unstable or you are playing on another
-            device.<br><br> Please make sure you don't have shapez open in any
-            other browser tab or another computer with the same Steam
-            account.<br><br> You can login again in the main menu.
+        title: Odhlášení plné verze
+        desc: Byly jste odhlášení z Plné Webové Verze hry z důvodu nestabilnosti vašeho internetového připojení nebo hrajete na jinem zařízení.<br><br> Prosíme ujistěte se že nemáte hru otevřenu na jiné kartě nebo jiném zařízení na tomto Steam účtě.<br><br> Přihlásit se znovu můžete na Hlavním menu.
     steamSsoNoOwnership:
-        title: Full Edition not owned
-        desc: In order to play the Full Edition in your Browser, you need to own both
-            the base game and the Puzzle DLC on your Steam account.<br><br>
-            Please make sure you own both, signed in with the correct Steam
-            account and then try again.
+        title: Plná verze není vlastněna
+        desc: Pro hraní Plné Verze na vašem prohlížeči, potřebujete vlastnit jak základní hru tak Puzzle DLC na svém Steam účtě.<br><br>
+            Prosíme zkontrolujte že vlastníte obě věci, že jste přihlášeni na správném Steam účtě a potom to zkuste znovu.
 ingame:
     keybindingsOverlay:
         moveMap: Posun mapy
@@ -330,7 +318,7 @@ ingame:
         clearSelection: Zrušit výběr
         pipette: Kapátko
         switchLayers: Změnit vrstvy
-        clearBelts: Clear belts
+        clearBelts: Vyčistit pásy
     buildingPlacement:
         cycleBuildingVariants: Zmáčkněte <key> pro přepínání mezi variantami.
         hotkeyLabel: "Klávesová zkratka: <key>"
@@ -478,11 +466,11 @@ ingame:
                 title: Achievements
                 desc: Získejte je všechny!
             mods:
-                title: Modding support!
-                desc: Over 80 mods available!
-        titleV2: "Get the full version now on Steam to unlock:"
-        titleExpiredV2: Demo completed!
-        titleEnjoyingDemo: Enjoy the demo?
+                title: Modifikace dostupné!
+                desc: Přez 80 modifikací dostupných!
+        titleV2: "Získej plnou verzi této hry na Steamu:"
+        titleExpiredV2: Demo verze dokončena!
+        titleEnjoyingDemo: Užil jsi si demo?
     puzzleEditorSettings:
         zoneTitle: Zóna
         zoneWidth: Šířka
@@ -1343,5 +1331,4 @@ mods:
         description: Aktivace či deaktivace módů je v současné době možná pouze
             kopírováním souboru módu z nebo do mods/ složky. Nicméně, možnost
             správy módů přímo ze hry je plánována pro budoucí aktualizaci!
-    browserNoSupport: Due to browser restrictions it is currently only possible to
-        install mods in the Steam version - Sorry!
+    browserNoSupport: Kvůli povolením prohlížeče je možné stahovat modifikace pouze na Steam verzi - Omlouváme se!
